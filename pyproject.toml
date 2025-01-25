@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tg-inference-service"
+version = "0.1.0"
+description = "MVP FastAPI service for Telegram targeting solution"
+authors = ["n m <matnik2001@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.88.0"
+uvicorn = "^0.21.1"
+sentence-transformers = "^2.2.2"
+lightgbm = "^3.3.5"
+psycopg2-binary = "^2.9.7"
+faiss-cpu = "^1.7.3"
+pylint = "^2.15.0"
+flake8 = "^5.0.4"
+mypy = "^0.991"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
